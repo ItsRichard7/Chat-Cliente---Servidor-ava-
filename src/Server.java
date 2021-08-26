@@ -3,42 +3,48 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Observable;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Server {
+public class Server extends Observable implements Runnable {
 
-    public static void main (String[] args) {
+    private int gate;
+
+    public Server(int puerto) {
+        this.gate = puerto;
+    }
+
+    @Override
+    public void run() {
         ServerSocket servidor = null;
         Socket sck = null;
         DataInputStream in;
-        DataOutputStream out;
-        final int gate = 6000;
 
         try {
             servidor = new ServerSocket(gate);
             System.out.println("Servidor Iniciado");
 
-            while (true){
+            while (true) {
 
                 sck = servidor.accept();
 
-                System.out.println("Cliente Conectado");
                 in = new DataInputStream(sck.getInputStream());
-                out = new DataOutputStream(sck.getOutputStream());
-
                 String mensaje = in.readUTF();
                 System.out.println(mensaje);
-                out.writeUTF("Server: Apágalo Otto, apágalo");
+
+                this.setChanged();
+                this.notifyObservers(mensaje);
+                this.clearChanged();
+
                 sck.close();
                 System.out.println("Cliente Desconectado");
-
 
             }
 
         } catch (IOException ex) {
             Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
         }
-
     }
 }
+
