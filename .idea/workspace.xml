@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa78009-b8cd-4b4b-b84b-42b5597d7d6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client1_Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client1_Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client1_Window.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client1_Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client2_Window.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client2_Window.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive - Estudiantes ITCR/TEC 2020/II Semestre/Algoritmos y Estructuras de Datos/Java/Chat Cliente Servidor" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,9 +49,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Client2_Window">
+  <component name="RunManager" selected="Application.Client1_Window">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="Chat-Cliente---Servidor-ava-" />
@@ -77,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client2_Window" />
         <item itemvalue="Application.Client1_Window" />
+        <item itemvalue="Application.Client2_Window" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.Client" />
       </list>
@@ -95,6 +100,10 @@
       <workItem from="1629861903960" duration="229000" />
       <workItem from="1629908680545" duration="845000" />
       <workItem from="1629922515234" duration="19596000" />
+      <workItem from="1629985218466" duration="860000" />
+      <workItem from="1629986142642" duration="2053000" />
+      <workItem from="1630184581815" duration="1230000" />
+      <workItem from="1630188248204" duration="5168000" />
     </task>
     <servers />
   </component>

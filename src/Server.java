@@ -1,5 +1,4 @@
 import java.io.DataInputStream;
-import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -8,11 +7,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Server extends Observable implements Runnable {
-
     private int gate;
-
-    public Server(int puerto) {
-        this.gate = puerto;
+    public Server(int gate) {
+        this.gate = gate;
     }
 
     @Override
@@ -23,28 +20,17 @@ public class Server extends Observable implements Runnable {
 
         try {
             servidor = new ServerSocket(gate);
-            System.out.println("Servidor Iniciado");
-
             while (true) {
-
                 sck = servidor.accept();
-
                 in = new DataInputStream(sck.getInputStream());
                 String mensaje = in.readUTF();
-                System.out.println(mensaje);
-
                 this.setChanged();
-                this.notifyObservers(mensaje);
+                this.notifyObservers();
                 this.clearChanged();
-
                 sck.close();
-                System.out.println("Cliente Desconectado");
-
             }
-
         } catch (IOException ex) {
-            Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Server.class.getName()).log(Level.SEVERE,null,ex);
         }
     }
 }
-
