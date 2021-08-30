@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afa78009-b8cd-4b4b-b84b-42b5597d7d6d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client1_Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client1_Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat-Cliente---Servidor-ava-/Client2_Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client1_Window.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client1_Window.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client2_Window.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client2_Window.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +94,7 @@
       <workItem from="1629985218466" duration="860000" />
       <workItem from="1629986142642" duration="2053000" />
       <workItem from="1630184581815" duration="1230000" />
-      <workItem from="1630188248204" duration="5168000" />
+      <workItem from="1630188248204" duration="6295000" />
     </task>
     <servers />
   </component>
